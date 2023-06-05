@@ -93,3 +93,22 @@ resources.forEach(function(week, i) {
     holder.appendChild(details);
 });
 
+const detailsElements = document.querySelectorAll('details');
+
+  detailsElements.forEach(function(details) {
+    details.addEventListener('click', function() {
+      detailsElements.forEach(function(otherDetails) {
+        if (otherDetails !== details) {
+          otherDetails.open = false;
+        }
+      });
+    });
+  });
+
+  
+const logo = document.querySelector("#logo");
+
+logo.addEventListener('click', function() {
+    console.log("hit")
+    window.location.href = "/../index.html";
+});
