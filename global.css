@@ -38,3 +38,22 @@ header img {
 #logo:hover {
     cursor: pointer;
 }
+
+.nav-bar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-bar > * {
+    border-bottom: 1px solid transparent;
+}
+
+.nav-bar > *:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.active-nav {
+    border-bottom: 1px solid black;
+}
