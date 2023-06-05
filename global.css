@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    gap: 20px;
+    width: 100%;
+}
+
+#wrapper.fade-out {
+    opacity: 0;
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+header img {
+    height: 100px;
+}

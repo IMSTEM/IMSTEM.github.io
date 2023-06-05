@@ -1,0 +1,27 @@
+#holder {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+details {
+    border: 1px solid black;
+}
+
+details:hover {
+    cursor: pointer;
+}
+
+.week-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.day-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
