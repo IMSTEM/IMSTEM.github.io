@@ -2,26 +2,26 @@ console.log("test")
 const classRoster = [
     {
         name: "Ezra Belgrave",
-        url: "ezra.html"
+        url: "ezra/ezra.html"
 
     }, 
     {
         name: "Morgan",
-        url: "morgan.html"
+        url: "morgan/morgan.html"
         
         
     },
     {
         name: "Joshua",
-        url: "joshua.html"
+        url: "joushua/joshua.html"
     },
     {
         name: "Jalin",
-        url: "jalin.html"
+        url: "jalin/jalin.html"
     },
     {
         name: "Imani",
-        url: "imani.html"
+        url: "imani/imani.html"
     },
     {
         name: "Allan"
