@@ -1,19 +1,27 @@
 console.log("test")
 const classRoster = [
     {
-        name: "Ezra Belgrave"
+        name: "Ezra Belgrave",
+        url: "ezra.html"
+
     }, 
     {
-        name: "Suzy"
+        name: "Morgan",
+        url: "morgan.html"
+        
+        
     },
     {
-        name: "Jon"
+        name: "Joshua",
+        url: "joshua.html"
     },
     {
-        name: "Bert"
+        name: "Jalin",
+        url: "jalin.html"
     },
     {
-        name: "Jess"
+        name: "Imani",
+        url: "imani.html"
     },
     {
         name: "Allan"
