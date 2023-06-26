@@ -66,8 +66,15 @@ classRoster.forEach(function(student, i) {
     student_holder.classList.add("student-card");
     student_holder.textContent = student.name;
 
-    holder.appendChild(student_holder);
+    
+
+    student_holder.addEventListener('click',function() {
+        navigateToPage(student.url);
+    
 });
+
+holder.appendChild(student_holder);
+}); 
 
 function navigateToPage(url) {
     const wrapper = document.getElementById('wrapper');
