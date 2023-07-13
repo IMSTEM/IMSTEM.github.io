@@ -2,7 +2,7 @@ console.log("test")
 const classRoster = [
     {
         name: "Ezra Belgrave",
-        url: "ezra/ezra.html"
+        url: "../ezra/ezra.html"
 
     }, 
     {
