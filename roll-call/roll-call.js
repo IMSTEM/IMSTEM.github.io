@@ -7,21 +7,21 @@ const classRoster = [
     }, 
     {
         name: "Morgan",
-        url: "morgan/morgan.html"
+        url: "../morgan/morgan.html"
         
         
     },
     {
         name: "Joshua",
-        url: "joushua/joshua.html"
+        url: "../joushua/joshua.html"
     },
     {
         name: "Jalin",
-        url: "jalin/jalin.html"
+        url: "../jalin/jalin.html"
     },
     {
         name: "Imani",
-        url: "imani/imani.html"
+        url: "../imani/imani.html"
     },
     {
         name: "Allan"
