@@ -35,3 +35,21 @@ header img {
 .active-nav {
     border-bottom: 1px solid black;
 }
+
+html {
+    height: 100%;
+    width: 100%;
+    font-family: cursive, brush script;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #e49add;
+       }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
