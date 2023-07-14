@@ -35,3 +35,30 @@ header img {
 .active-nav {
     border-bottom: 1px solid black;
 }
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: lightskyblue;
+    color: white;
+    margin: 7em;
+  }
+  
+  h1{
+    color: black;
+    font-style: bold;
+  }
+  
+  img {
+    height: 20em;
+    width: auto;
+  }
+  
+  .football {
+    height: 30em;
+    width: auto;
+  }
+  
