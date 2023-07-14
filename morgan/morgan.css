@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #c2e1a3 0%, #20B2AA 100%);
+    margin: 7em;
+    border: 2px solid black;
+    border-radius: 12px;
+   
+  }
+  
+  img {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: brown;
+  }
+  
+  h2 {
+    color: brown
+  }
+  
+  p {
+    color: brown
+  }
+  
+  #filler {
+    height: 20em;
+    width: 20em;
+    border-style: solid;
+  }
+  
+  a {
+    justify-content: space-between;
+    padding: 1em;
+    
+    
+  
+  }
+  
+  #main {
+    flex-direction:row;
+  
+  }
+  
+  #cont {
+    
+    color: brown;
+    border-left: 2px;
+    border-left-style: solid;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+  }
+  /* We are almost there! we need to adjust one more padding  */
