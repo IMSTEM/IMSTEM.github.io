@@ -35,3 +35,24 @@ header img {
 .active-nav {
     border-bottom: 1px solid black;
 }
+
+
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    color: black;
+    background-color: darkgrey;
+    margin:7em;
+    border-style:double;
+    border-color:#2f4a9d;
+  
+  }
+  
+  p {
+    color: black;
+    font-size: 2em;
+  }
