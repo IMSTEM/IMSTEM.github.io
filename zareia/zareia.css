@@ -35,3 +35,25 @@ header img {
 .active-nav {
     border-bottom: 1px solid black;
 }
+
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #dbe2f5;
+    color: #2b66a6; 
+  }
+  
+  div {
+    border-style: solid;
+  }
+  
+  #trumpet {
+    width: 6em;
+    height: auto;
+  }
