@@ -97,3 +97,11 @@ html {
     hyphens: auto;
     font-size: 20px;
   }
+
+  #loader {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #21242d  url("assets/chloe.gif") no-repeat center; 
+	z-index: 999;
+}
