@@ -35,3 +35,27 @@ header img {
 .active-nav {
     border-bottom: 1px solid black;
 }
+
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: floralwhite;
+    color: black;
+    text-align: center;
+  }
+  
+  div {
+    border-style: solid;
+  }
+  
+  #kacivb {
+    width: 20em;
+    height: auto; 
+  }
