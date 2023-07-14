@@ -2,42 +2,42 @@ console.log("test")
 const classRoster = [
     {
         name: "Ms. Bree",
-        url: "bree/bree.html"
+        url: "../bree/bree.html"
 
     },
     {
         name: "Ms. Ezra",
-        url: "ezra/ezra.html"
+        url: "../ezra/ezra.html"
 
     }, 
 
     {
         name: "Ms. Kiersten",
-        url: "kiersten/kiersten.html"
+        url: "../kiersten/kiersten.html"
 
     },
 
     {
         name: "Ms. Marianne",
-        url: "marianne/marianne.html"
+        url: "../marianne/marianne.html"
 
     },
 
     {
         name: "Cam",
-        url: "cam/cam.html"
+        url: "../cam/cam.html"
 
     },
 
     {
         name: "Chloe",
-        url: "chloe/chloe.html"
+        url: "../chloe/chloe.html"
 
     },
 
     {
         name: "Davina",
-        url: "davina/davina.html"
+        url: "../davina/davina.html"
 
     },
 
