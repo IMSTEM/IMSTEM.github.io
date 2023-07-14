@@ -35,3 +35,65 @@ header img {
 .active-nav {
     border-bottom: 1px solid black;
 }
+
+
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Diphylleia', serif;
+  }
+  
+  
+  body {
+    margin: 5em;
+    display: flex;
+    flex-direction: column;
+    background-color: #cdc7ff;
+    color: #1f0038; 
+  }
+  
+  h1 {
+    color: #28003d;
+  }
+  
+  
+  
+  div {
+    border-style: invisible;
+  }
+  
+  #dance1 {
+    width: 20em;
+    height: auto;
+  }
+  #dance2{
+    width: 18em;
+    height: auto;
+  }
+  #dance3{
+    width: 15em;
+    height: auto;
+  }
+  #dance4{
+    width: 15em;
+    height: auto;
+  }
+  
+  .imgtxt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  
+  .imgtxt p {
+    margin: 3em;
+    
+  }
+  
+  p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-size: 20px;
+  }
