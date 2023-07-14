@@ -1,61 +1,102 @@
 console.log("test")
 const classRoster = [
     {
-        name: "Ezra Belgrave",
+        name: "Ms. Bree",
+        url: "../bree/bree.html"
+
+    },
+    {
+        name: "Ms. Ezra",
         url: "../ezra/ezra.html"
 
     }, 
+
+    {
+        name: "Ms. Kiersten",
+        url: "../kiersten/kiersten.html"
+
+    },
+
+    {
+        name: "Ms. Marianne",
+        url: "../marianne/marianne.html"
+
+    },
+
+    {
+        name: "Cam",
+        url: "../cam/cam.html"
+
+    },
+
+    {
+        name: "Chloe",
+        url: "../chloe/chloe.html"
+
+    },
+
+    {
+        name: "Davina",
+        url: "../davina/davina.html"
+
+    },
+
+    {
+        name: "Imani",
+        url: "../imani/imani.html"
+    },
+
+    {
+        name: "Jalin",
+        url: "../jalin/jalin.html"
+    },
+
+    {
+        name: "Janiyah",
+        url: "../janiyah/janiyah.html"
+    },
+
+    {
+        name: "Joshua",
+        url: "../joushua/joshua.html"
+    },
+
+    {
+        name: "Justin",
+        url: "../justin/justin.html"
+    },
+
+    {
+        name: "Kaci",
+        url: "../kaci/kaci.html"
+    },
+
+    {
+        name: "Lois",
+        url: "../lois/lois.html"
+    },
+
     {
         name: "Morgan",
         url: "../morgan/morgan.html"
         
         
     },
+    
     {
-        name: "Joshua",
-        url: "../joushua/joshua.html"
+        name: "Mya",
+        url: "../mya/mya.html"
+        
+        
     },
+
     {
-        name: "Jalin",
-        url: "../jalin/jalin.html"
+        name: "Zareia",
+        url: "../zareia/zareia.html"
+        
+        
     },
-    {
-        name: "Imani",
-        url: "../imani/imani.html"
-    },
-    {
-        name: "Allan"
-    },
-    {
-        name: "Taylor"
-    },
-    {
-        name: "Jeff"
-    },
-    {
-        name: "Sergio"
-    },
-    {
-        name: "Daphne"
-    },
-    {
-        name: "Eugene"
-    },
-    {
-        name: "Bartholomew"
-    },
-    {
-        name: "Cynthia"
-    },
-    {
-        name: "Gertrude"
-    },
-    {
-        name: "Favi"
-    },
-    {
-        name: "Oluwatobi"
-    },
+    
 ]
 
 
