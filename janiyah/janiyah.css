@@ -35,3 +35,53 @@ header img {
 .active-nav {
     border-bottom: 1px solid black;
 }
+
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  h1{
+    font-size: 70px;
+  }
+  
+  h2 {
+    background-color: white;
+    font-size: 50px;
+  }
+  
+  body {
+    margin: 5em;
+    background-color: pink;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  div {
+    border-style: solid;
+    margin: 2em;
+    
+  }
+    
+  
+  #flower {
+    height: 10em;
+    width: auto;
+  }
+  
+  #cloud {
+    align-items: center;
+  
+  }
+  
+  .cloud {
+    background-image: url("assets/clouds.jpg");
+  }
+  
+  
+  /**/
