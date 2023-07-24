@@ -35,26 +35,3 @@ header img {
 .active-nav {
     border-bottom: 1px solid black;
 }
-
-
-html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  body { margin: 5em;
-    background-color: pink;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  h1 {
-    color: blue;
-  }
-  p{
-    font-size:2ch ;
-  } 
-
-  img {
-    height: 75vh;
-    width: auto;
-  }
