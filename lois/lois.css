@@ -53,3 +53,8 @@ html {
   p{
     font-size:2ch ;
   } 
+
+  img {
+    height: 75vh;
+    width: auto;
+  }

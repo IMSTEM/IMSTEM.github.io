@@ -42,6 +42,18 @@ const classRoster = [
     },
 
     {
+        name: "Dylan",
+        url: "../dylan/dylan.html"
+
+    },
+
+    {
+        name: "Haylee",
+        url: "../haylee/haylee.html"
+
+    },
+
+    {
         name: "Imani",
         url: "../imani/imani.html"
     },
@@ -74,6 +86,12 @@ const classRoster = [
     {
         name: "Lois",
         url: "../lois/lois.html"
+    },
+
+    {
+        name: "Miyah",
+        url: "../miyah/miyah.html"
+
     },
 
     {
