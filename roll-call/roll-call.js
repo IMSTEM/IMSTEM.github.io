@@ -24,6 +24,12 @@ const classRoster = [
     },
 
     {
+        name: "Ariel",
+        url: "../ariel/ariel.html"
+
+    },
+
+    {
         name: "Cam",
         url: "../cam/cam.html"
 

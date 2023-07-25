@@ -58,3 +58,74 @@ html {
     height: 75vh;
     width: auto;
   }
+
+  .box {
+	width:100%;
+	height:fit-content;
+	background: lightpink;
+	margin:40px auto;
+}
+
+.effect1{
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Kanit:900");
+
+body {
+  background: pink;
+}
+
+h2 {
+  color: palevioletred;
+  font-family: "Kanit";
+  font-size: 60px;
+  line-height: 1em;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-shadow: 
+    0 1px 0 rgb(223, 183, 183),
+    0 2px 0 rgb(216, 176, 176),
+    0 3px 0 rgb(209, 169, 169),
+    0 4px 0 rgb(202, 162, 162),
+    0 5px 0 rgb(195, 155, 155),
+    0 6px 0 rgb(188, 148, 148),
+    0 7px 0 rgb(181, 141, 141),
+    0 8px 0 rgb(174, 134, 134),
+    0 0 5px rgba(0, 0, 0, 0.05),
+    0 -1px 3px rgba(0, 0, 0, 0.2),
+    0 3px 5px rgba(0, 0, 0, 0.2),
+    0 3px 3px rgba(0, 0, 0, 0.3),
+    0 6px 6px rgba(0, 0, 0, 0.3),
+    0 9px 9px rgba(0, 0, 0, 0.3);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+#intro {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#intro h1 {
+    flex: 1;
+    margin: 0;
+    font-size: 7rem;
+}
+
+#intro img {
+    flex: 1;
+    height: 80vh;
+    width: auto;
+}
