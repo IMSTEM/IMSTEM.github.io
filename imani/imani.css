@@ -41,6 +41,7 @@ header img {
 html {
     height: 100%;
     width: 100%;
+    cursor: url(assets/stethoscope.png), auto;
   }
   
   body {

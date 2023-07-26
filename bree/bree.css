@@ -35,3 +35,31 @@ header img {
 .active-nav {
     border-bottom: 1px solid black;
 }
+
+body {
+    background-color: bisque;
+
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    font-size: 5vh;
+    max-height: 95vh;
+    width: auto;
+
+}
+
+p {
+    font-size: 50px;
+
+}
