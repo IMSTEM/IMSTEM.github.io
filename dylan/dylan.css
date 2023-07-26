@@ -68,6 +68,7 @@ div {
     display: flex;
     flex-direction: row;
 }
+
 #left {
     background-color: #FF914D;
     display: flex;
@@ -89,10 +90,8 @@ div {
     font-size: 5vh;
     max-height: 95vh;
     width: auto;
-
 }
 
 p {
     font-size: 50px;
-
 }
