@@ -1,0 +1,98 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+header img {
+    height: 100px;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-bar > * {
+    border-bottom: 1px solid transparent;
+}
+
+.nav-bar > *:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.active-nav {
+    border-bottom: 1px solid black;
+}
+
+body {
+    background-color: bisque;
+
+}
+
+h1 {
+    font-size: 70px;
+    
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+#left {
+    background-color: #FF914D;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+#right {
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    font-size: 5vh;
+    max-height: 95vh;
+    width: auto;
+
+}
+
+p {
+    font-size: 50px;
+
+}

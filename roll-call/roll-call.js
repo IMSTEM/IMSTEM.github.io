@@ -76,7 +76,7 @@ const classRoster = [
 
     {
         name: "Joshua",
-        url: "../joushua/joshua.html"
+        url: "../joshua/joshua.html"
     },
 
     {
