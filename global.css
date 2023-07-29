@@ -6,7 +6,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #005596;
+    background-color: #009ddc99;
+    color: #005596;
+    font-style: bold;
+    font-size: 30px;
 }
 #wrapper {
     display: flex;
@@ -31,6 +34,7 @@ header {
 header h1 {
     font-size: 64px;
     margin: 0;
+    color: white;
 }
 
 header img {
