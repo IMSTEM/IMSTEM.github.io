@@ -85,3 +85,22 @@ header img {
 .test:hover .text1 {
   display: flex;
 }
+
+body {
+  padding: 50 px;
+  text-align: center;
+  margin: 7em;
+}
+
+img {
+  
+  max-width: 15vw;
+  max-height: auto;
+  border-style: solid;
+  border-color: white;
+  border-width: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
