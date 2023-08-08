@@ -16,6 +16,7 @@ header h1 {
 
 header img {
     height: 100px;
+    border-style: none;
 }
 
 #logo:hover {
@@ -56,8 +57,10 @@ header img {
 }
 
 .content-grid img {
-  max-width: 100%;
+  max-width: 20vw;
   max-height: auto;
+  justify-content: space-between;
+
   
 }
 
@@ -67,11 +70,13 @@ header img {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  justify-content: space-around;
 }
 
 .text1 {
   display: none;
   z-index: 1;
+  font-size: large;
 }
 
 .test img {
@@ -87,20 +92,25 @@ header img {
 }
 
 body {
-  padding: 50 px;
+  padding: 50px;
   text-align: center;
   margin: 7em;
 }
 
 img {
   
-  max-width: 15vw;
+  max-width: 10vw;
   max-height: auto;
   border-style: solid;
   border-color: white;
-  border-width: 50px;
+  border-width: 30px;
 }
 
 h3 {
   font-size: 30px;
+}
+
+h2{
+  align-self: center;
+  font-size: 4em;
 }
