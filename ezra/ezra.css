@@ -54,7 +54,7 @@ body {
     
   font-family: Arial, sans-serif;
   color: darkolivegreen;
-  background-color: #f6f0de;
+  background-color: #FCF7E5;
   padding: 3vw;
   text-align: center;
   margin: 5vw;
@@ -66,6 +66,10 @@ h1 {
   text-align: center;
   font-family: 'Kablammo', cursive;
   font-size:5em;
+}
+
+h2 {
+  text-align: left;
 }
 
 
@@ -80,6 +84,7 @@ div {
 
 #intro {
   flex-direction: row;
+  gap: 45px;
   
 }
 
@@ -116,4 +121,33 @@ img {
 
 #ezra-photo {
   border-radius: 100px;
+}
+
+#duke {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+#education {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: flex-start;
+ 
+}
+
+#education h2 {
+  text-align: left;
+}
+
+#ken {
+  border-radius: 100px;
+
+}
+
+#bio {
+  flex-direction: row;
+  gap: 45px;
+  
 }
