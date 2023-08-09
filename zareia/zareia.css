@@ -45,12 +45,18 @@ html {
   body {
     display: flex;
     flex-direction: column;
-    background-color: #dbe2f5;
-    color: #2b66a6; 
+    background-color: teal;
+    color: black; 
   }
   
   div {
-    border-style: solid;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
   }
   
   #trumpet {
