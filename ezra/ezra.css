@@ -1,27 +1,23 @@
-body {
-    
-    font-family: Arial, sans-serif;
-    color: darkolivegreen;
-    background-color: #f6f0de;
-    padding: 3vw;
-    text-align: center;
-    margin: 5vw;
- 
-}
-
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: purple;
 }
 
 header h1 {
-  font-size: 30px;
+  font-size: 64px;
   margin: 0;
+  color: purple;
 }
 
 header img {
   height: 100px;
+  width: auto;
+}
+
+header span{
+  font-size: 30px;
 }
 
 #logo:hover {
@@ -48,9 +44,21 @@ header img {
 }
 
 
-header {
-    color: mediumvioletred;
-  
+html {
+  height: 100%;
+  width: 100%;
+  cursor: url(assets/fairy.png), auto;
+}
+
+body {
+    
+  font-family: Arial, sans-serif;
+  color: darkolivegreen;
+  background-color: #f6f0de;
+  padding: 3vw;
+  text-align: center;
+  margin: 5vw;
+
 }
 
 h1 {
@@ -66,7 +74,7 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  max-width: 100%;
 
 }
 
@@ -80,9 +88,32 @@ img {
   height: auto;
 }
 
-.wave{
-  display: flex;
-  flex-direction: row;
-  overflow-x: hidden;
+
+.bottom-left {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 10em;
+  width: auto;
+  
+  
 }
 
+.bottom-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 10em;
+  width: auto;
+}
+
+
+#astrology {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+#ezra-photo {
+  border-radius: 100px;
+}
