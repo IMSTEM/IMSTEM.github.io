@@ -47,6 +47,7 @@ html {
     flex-direction: column;
     background-color: teal;
     color: black; 
+    max-width: 100%;
   }
   
   div {
@@ -57,9 +58,15 @@ html {
   .row {
     display: flex;
     flex-direction: row;
+    max-width: 100%;
   }
   
   #trumpet {
     width: 6em;
+    height: auto;
+  }
+
+  .png {
+    max-width: 30%;
     height: auto;
   }
