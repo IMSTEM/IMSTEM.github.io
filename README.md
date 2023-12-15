@@ -1,2 +1,2 @@
-# IMSTEM.github.io
-Classroom webpage
+# Durham IM STEM Class site
+This site is a WORK IN PROGRESS and its made overly simple and repetitive (in the codebase) to keep things straightforward for the students. Each student has their own "environment" inside of a folder with their own assets, html, js and css files. Their job was to create something they felt good about while learning to code along the way. With the way that the program was structure, some students came to sessions more often that others so some of their sites are more developed. The students were also allowed to work on this outside of our sessions but were not required. It is my hope that the students felt ~inspired~ and had fun with this project overall!
