@@ -12,13 +12,14 @@
     font-size: 32px;
 }
 
-#main-content span {
+.quick-links {
     color: red;
     font-size: 48px;
     border-bottom: 1px solid transparent;
+    white-space: nowrap;
 }
 
-#main-content span:hover {
+.quick-links:hover {
     border-bottom: 1px solid red;
     cursor: pointer;
 }

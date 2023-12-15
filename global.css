@@ -8,17 +8,17 @@ body {
     align-items: center;
     background-color: #009ddc99;
     color: #005596;
-    font-style: bold;
     font-size: 30px;
 }
 #wrapper {
     display: flex;
     flex-direction: column;
-    max-width: 1024px;
+    max-width: 1366px;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
     gap: 20px;
     width: 100%;
+    padding: 20px;
 }
 
 #wrapper.fade-out {
@@ -26,19 +26,23 @@ body {
   }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
 }
 
 header h1 {
-    font-size: 64px;
+    font-size: 48px;
     margin: 0;
     color: white;
+    align-self: center;
+    text-align: center;
 }
 
 header img {
     height: 100px;
+    place-self: flex-start;
+    align-self: center;
 }
 
 #logo:hover {
@@ -49,10 +53,14 @@ header img {
     display: flex;
     gap: 15px;
     align-items: center;
+    place-self: flex-end;
+    align-self: center;
 }
 
 .nav-bar > * {
     border-bottom: 1px solid transparent;
+    white-space: nowrap;
+    font-size: 22px;
 }
 
 .nav-bar > *:hover {

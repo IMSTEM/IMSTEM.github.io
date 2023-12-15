@@ -4,9 +4,9 @@ html {
 
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
 }
 
 header h1 {

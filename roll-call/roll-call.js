@@ -147,6 +147,7 @@ function navigateToPage(url) {
 
     setTimeout(() => {
     window.location.href = url;
+    wrapper.classList.remove('fade-out');
     }, 500); // Adjust the delay to match the transition duration in CSS
 }
 
